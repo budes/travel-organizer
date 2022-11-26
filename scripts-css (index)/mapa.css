@@ -1,0 +1,98 @@
+svg {
+	width: 21.5rem;
+}
+
+/* ============================================ */
+
+#map .state{
+	cursor:pointer
+}
+#map .state .shape{
+	cursor:pointer;
+	stroke-width:0
+}
+#map .state .label-icon-state{
+	fill:#fff;
+	font-family:Arial;
+	font-size:11px;
+	line-height:12px;
+	font-weight:normal
+}
+#map .state .label-state{
+	display:none;
+	font-family:Arial;
+	font-size:14px;
+	line-height:16px;
+	font-weight:bold
+}
+#map .state:hover .label-state,#map .state.hover .label-state{
+	display:block
+}
+
+/* ============================================ */
+
+/*
+#mapa_brasil.hover #map .model-green .state .shape{
+	fill: rgb(1, 1, 1);
+}*/
+
+
+/*#mapa_brasil.hover #map .model-green .state .icon-state{
+	fill: rgb(1, 1, 1);
+}*/
+
+
+/* ================ SEM HOVER ================ */
+
+#map .model-green .state .shape{ /*Cor dos estados sem hover*/
+	fill: rgb(180, 30, 30);
+	transition: fill 0.2s;
+}
+
+#map .model-green .state .icon-state{ /*Cor das bolinhas sem hover*/
+	fill: rgb(90, 90, 90);
+	transition: fill 0.2s;
+}
+
+#map .model-green .state .label-icon-state{ /*Cor das siglas*/
+	fill: #fff
+}
+
+#map .model-green .state .label-state{ /*Cor dos nomes de cima*/
+	fill: #999
+}
+
+.label-state {
+	transform: translateX(-15.5%);
+	text-align: center;
+}
+
+/*================ COM HOVER ================ */
+
+/*Cor dos estados com hover*/
+#map .model-green .state:hover .shape,#map .model-green .state.hover .shape{
+	fill: rgb(195, 45, 45) !important
+}
+
+/*Cor das bolinhas com hover*/
+#map .model-green .state:hover .icon-state,#map .model-green .state.hover .icon-state{
+	fill: rgb(105, 105, 105) !important
+}
+	
+/*===================================*/
+
+.section_apps{
+	border:1px solid #CCC;
+	overflow:hidden;
+	padding-top:10px
+}
+.section_apps .col-1,.section_apps .col-2,.section_apps .col-3{
+	float:left;
+	height:125px
+}
+.section_apps .col-1{
+	width:240px;
+	margin-right:10px;
+	display:table-cell;
+	padding-left:20px
+}

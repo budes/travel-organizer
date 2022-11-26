@@ -1,0 +1,172 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.painel { 
+	margin: 1vh;
+	margin-right: 2vh;
+
+	width: 0rem/*27.5rem*/;
+	height: 98vh;
+
+	background-color: rgb(220, 220, 220);
+	border-radius: 1rem;
+
+	transition: width 0.35s;
+
+	box-shadow: 7px 10px 10px rgba(30, 30, 30, 0.5)
+}
+
+
+/* -------------------------- */
+
+
+
+.painel img, p, button, #hotel {
+	text-align: center;
+
+	width: 80%;
+
+	margin-top: 1.5rem;
+
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+
+/* --------------- */
+
+
+.painel h1 {
+	text-align: center;
+
+	font-weight: normal;
+
+	margin-top: 1rem;
+	margin-left: 1rem;
+
+	font-size: 2.2rem;
+} 
+
+
+.painel img {
+	width: 70%;
+	border-radius: 1rem;
+	transition: width 0.3s;
+}
+
+
+.painel p {
+	font-size: 1.7rem;
+	width: 20rem;
+}
+
+
+/* --------------- */
+
+
+#hotel {
+	height: 3rem;
+	width: 15rem;
+
+	line-height: 2.7rem;
+	font-size: 1.7rem;
+
+	border-radius: 0.5rem;
+
+	border: 0.15rem solid rgb(180, 30, 30);
+	border-bottom-width: 0.4rem;
+
+	margin-bottom: 0.75rem;
+
+	color: rgb(180, 30, 30);
+
+	display: flex;
+	flex-direction: row;
+}
+
+#hamburger {
+	width: 3rem;
+	height: inherit;
+
+	margin-top: 0.75rem;
+
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 7.5%;
+	margin-right: 0%;
+}
+
+.desenho {
+	width: 2.25rem;
+	height: 0.265rem;
+
+	margin-bottom: 0.3rem;
+
+	background-color: rgb(180, 30, 30);
+
+	border-radius: 0.1rem;
+}
+
+
+/* --------------- */
+
+
+.painel button {
+	height: 5rem;
+	width: 18rem;
+
+	border-radius: 0.5rem;
+
+	border: 0.15rem solid rgb(150, 10, 10);
+	border-bottom-width: 0.4rem;
+
+	font-size: 1.65rem;
+
+	background-color: rgb(180, 30, 30);
+	color: rgb(240, 240, 240);
+
+	font-family: Clear Sans;
+	font-weight: normal;
+
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: rgb(195, 45, 45)
+}
+
+/* -------------------------- */
+
+.hoteis {
+	position: fixed;
+	transform: translateX(-100%) translateY(-85%);
+
+	height: 25rem;
+
+	background-color: rgb(220, 220, 220);
+
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+
+	transition: width 0.35s, transform 0.35s;
+
+	text-align: center;
+}
+
+.hoteis p {
+	font-size: 1.1rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0rem;
+}
+
+.hoteis img {
+	margin-top: 0.1rem;
+	margin-bottom: 0rem;
+
+	/*width: 80%;*/
+	transition: width 0.35s
+}
+
+#seg {
+	width: 60%
+}
