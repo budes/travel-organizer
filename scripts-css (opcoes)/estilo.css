@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	border: 0;
+
+	overflow: hidden;
+
+	box-sizing: border-box;
+}
+
+/* ============================================ */
+
+
+/*font: normal 1rem Arial;*/
+@font-face {
+	font-family: "Clear Sans";
+	src: url("../clear-sans/ClearSans-Light.ttf")
+}
+
+
+html {
+	font-family: Clear Sans;
+}
+
+/* ------------------------------ */
+
+
+header {
+	width: 100vw;
+}
+
+header h1 {
+	font-size: 2.5rem;
+	font-weight: 100;
+
+	text-align: center;
+}
+
+
+/* ----------------  */
+
+.cartao {
+	width: 19rem;
+	height: 30rem;
+
+	background-color: rgb(230, 230, 230);
+
+	margin: 1rem;
+	border-radius: 1rem;
+	
+	box-shadow: 4px 6px 6px rgba(20, 20, 20, 0.5);
+
+	margin-left: 50%;
+	transform: translateX(-50%);
+
+	transition: width 0.3s;
+
+	display: flex;
+	flex-direction: row;
+}
+
+section {
+	margin-left: 0.55rem;
+}
+
+/* ~~~~~~~~~ */
+
+.cartao h2 {
+	height: 4rem;
+	line-height: 4rem;
+
+	text-align: center;
+	font-weight: normal;
+
+	font-size: 1.7rem;
+}
+
+.cartao img {
+	margin: 1rem;
+	width: 15rem;
+
+	margin-left: 50%;
+	transform: translateX(-50%);
+
+	border-radius: 1rem;
+}
+
+.cartao p {
+	width: 18rem;
+
+	margin-left: 50%;
+	transform: translateX(-50%);
+
+	word-wrap: break-word;
+
+	font-size: 1.2rem;
+
+	text-align: center;
+}
+
+#dica {
+	margin-top: 2rem;
+	color: rgb(140, 140, 140);
+
+	border-radius: 1rem;
+	cursor: context-menu;
+}
+
+/* ~~~~~~~~~ */
+
+#segundo {
+	transition: width 0.3s
+}
+
+#condicoes {
+	text-align: left;
+	margin-left: 10rem;
+}
+
+#resultado {
+	background-image: linear-gradient(rgb(180, 30, 30), rgb(200, 50, 50));
+	color: white;
+	font-weight: 500;
+
+	width: 13rem;
+
+	padding: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	height: 4rem;
+	line-height: 1.2rem;
+
+	font-size: 1.1rem;
+
+	border: 0.15rem solid rgb(180, 30, 30);
+	border-radius: 0.5rem;
+
+	transition: color 0.2s, background-color 0.2s;
+}
+
+.tempo {
+	height: 3.9rem !important;
+}
+
+#resultado:hover {
+	background-color: rgb(180, 30, 30);
+	color: rgb(230, 230, 230);
+}
+
+
+/* --------------------  */
+
+.cartao:hover {
+	width: 38rem;
+}
+
+.espacamento {
+	margin-top: 0.75rem;
+}
